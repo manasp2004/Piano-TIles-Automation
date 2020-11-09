@@ -6,6 +6,29 @@
 # Tile 3: 706
 # Tile 4: 797
 
-# Y Position of all Tiles: 430
+# Y Position of all Tiles: 40
 
 # ------------------------------------------------------------------------- #
+
+import pyautogui
+import time
+import keyboard
+
+pyautogui.FAILSAFE = False
+
+while True:
+    if keyboard.is_pressed('q') == False:
+        if pyautogui.pixel(536, 400)[0] == 0:
+            pyautogui.click(536, 400, button='right')
+
+        elif pyautogui.pixel(629, 400)[0] == 0:
+            pyautogui.click(629, 400, button='right')
+
+        elif pyautogui.pixel(706, 400)[0] == 0:
+            pyautogui.click(706, 400, button='right')
+
+        elif pyautogui.pixel(797, 400)[0] == 0:
+            pyautogui.click(797, 400, button='right')
+    else:
+        print("Script Aborted!")
+        break
