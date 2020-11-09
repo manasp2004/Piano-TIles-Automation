@@ -1,4 +1,4 @@
-﻿# Piano TIles Auto-Clicker
+﻿# Piano Tiles Auto-Clicker
 
 ### This Program for made for the following version of the Game: https://www.agame.com/game/magic-piano-tiles
 
