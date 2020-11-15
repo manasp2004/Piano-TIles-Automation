@@ -28,17 +28,17 @@ time.sleep(1)
 
 while True:
     if keyboard.is_pressed('q') == False:
-        if pyautogui.pixel(520, 300)[0] == 0:
-            click(520, 305)
+        if pyautogui.pixel(520, 300)[0] == 30:
+            click(520, 300)
 
         elif pyautogui.pixel(629, 300)[0] == 0:
-            click(629, 305)
+            click(629, 300)
 
         elif pyautogui.pixel(706, 300)[0] == 0:
-            click(706, 305)
+            click(706, 300)
 
         elif pyautogui.pixel(805, 300)[0] == 0:
-            click(805, 305)
+            click(805, 300)
     else:
         print("Script Aborted!")
         break
